@@ -1,0 +1,18 @@
+[package]
+name = "univerge"
+version = "0.0.1"
+description = "An attempt to learn more about the world through simulating parts of it."
+keywords = ["univerge"]
+authors = [
+    "Vasile Campeanu <contact@vasilecampeanu.com>"
+]
+license = "MIT"
+edition = "2021"
+
+[workspace]
+members = [
+    "crates/*",
+]
+
+[dependencies]
+univerge_renderer = { path = "crates/univerge_renderer" }

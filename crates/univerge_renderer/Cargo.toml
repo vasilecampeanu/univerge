@@ -1,0 +1,12 @@
+[package]
+name = "univerge_renderer"
+version = "0.0.1"
+description = "Provides rendering functionality for univerge."
+keywords = ["univerge"]
+authors = [
+    "Vasile Campeanu <contact@vasilecampeanu.com>"
+]
+license = "MIT"
+edition = "2021"
+
+[dependencies]
